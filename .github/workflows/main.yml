@@ -26,4 +26,4 @@ jobs:
       run: dotnet build TestingCodeSpaces --no-restore
     
     - name: Test
-      run: dotnet test TestingCodeSpaces/TestingCodeSpacesTest 
+      run: dotnet test TestingCodeSpacesTest
