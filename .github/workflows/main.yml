@@ -26,4 +26,4 @@ jobs:
       run: dotnet build TestingCodeSpaces --no-restore
     
     - name: Test
-      run: dotnet test TestingCodeSpaces --no-build --verbosity normal --filter "Category!=LongRunning"
+      run: dotnet test TestingCodeSpacesTest --no-build --verbosity normal --filter "Category!=LongRunning"

@@ -4,8 +4,8 @@ public class Car : Vehicle
 {
     public Car(string name) : base(name) {} // inherited from base
 
-    public override void Honk()
+    public override string Honk()
     {
-        Console.WriteLine("beep");
+        return "beep";
     }
 }

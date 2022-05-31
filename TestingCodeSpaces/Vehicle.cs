@@ -14,9 +14,9 @@ namespace TestProject
             Console.WriteLine($"{name} is now driving.");
         }
 
-        public virtual void Honk()
+        public virtual string Honk()
         { 
-            Console.WriteLine("HONK");
+           return "HONK";
         }
     }
 }
